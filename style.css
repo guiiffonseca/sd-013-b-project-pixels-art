@@ -2,14 +2,14 @@
     width:70px;
     height:70px;
     border: 1px solid #000000;
-    background-color: #bebebe;
+    background-color: gray;
 }
 
 #pink {
     width:70px;
     height:70px;
     border: 1px solid #000000;
-    background-color: #FFC0CB;
+    background-color: pink;
 }
 
 #red {
@@ -37,4 +37,11 @@
     margin-top: 1px;
     padding-top: 0px;
     padding-left: 20px;
+}
+
+.pixel {
+    background-color: rgb(255,255,255);
+    height: 40px;
+    width: 40px;
+    border: solid 1px #000000;
 }
