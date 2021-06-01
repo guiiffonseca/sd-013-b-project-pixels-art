@@ -1,0 +1,40 @@
+#gray {
+    width:70px;
+    height:70px;
+    border: 1px solid #000000;
+    background-color: #bebebe;
+}
+
+#pink {
+    width:70px;
+    height:70px;
+    border: 1px solid #000000;
+    background-color: #FFC0CB;
+}
+
+#red {
+    width:70px;
+    height:70px;
+    border: 1px solid #000000;
+    background-color: red;
+}
+
+#black {
+    width:70px;
+    height:70px;
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+
+.color  {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.color-names{
+    display:inline-block;
+    margin-top: 1px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
