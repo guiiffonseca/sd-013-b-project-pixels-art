@@ -2,28 +2,24 @@
     width:70px;
     height:70px;
     border: 1px solid #000000;
-    background-color: gray;
 }
 
 #pink {
     width:70px;
     height:70px;
     border: 1px solid #000000;
-    background-color: pink;
 }
 
 #red {
     width:70px;
     height:70px;
     border: 1px solid #000000;
-    background-color: red;
 }
 
 #black {
     width:70px;
     height:70px;
     border: 1px solid #000000;
-    background-color: #000000;
 }
 
 .color  {
