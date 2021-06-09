@@ -1,10 +1,13 @@
 body {
-    background: url(download.jpeg);
+    background: url(mario4.jpg);
+    
+    background-size: 100%;
 }
 
 
 h1 {
     text-align: center;
+    color: whitesmoke;
     
 }
 
@@ -44,6 +47,7 @@ h1 {
     display:inline-block;
     margin-top: 1px;
     padding-left: 30px;
+    color: whitesmoke;
 }
 
 .pixel {
@@ -62,7 +66,7 @@ h1 {
 }
 
 #pixel-board{
-    padding-left: 430px;
+   padding-left: 400px;
 }
 
 input {

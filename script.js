@@ -1,7 +1,7 @@
 
 const selectedColor = document.getElementsByClassName('color');
-const pixelBoard = document.getElementById('pixel-board')
-const board = document.getElementsByClassName('pixel')
+const pixelBoard = document.getElementById('pixel-board');
+const board = document.getElementsByClassName('pixel');
 
 //Requisito 4  e 5
 function createBoard(number) {
@@ -10,6 +10,7 @@ function createBoard(number) {
         for (let index2 = 0; index2 < number; index2 += 1) {
             const pixels = document.createElement('td');
             pixels.classList.add('pixel');
+           pixels.addEventListener('click', paintingBoard);
             rowBoard.appendChild(pixels);
         }
         pixelBoard.appendChild(rowBoard);
@@ -27,9 +28,9 @@ function selector (event) {
 }
 
 // Requisito 8
-for (let index = 0; index < board.length; index += 1){
-    board[index].addEventListener('click', paintingBoard);
-}
+//for (let index = 0; index < board.length; index += 1){
+  //  board[index].addEventListener('click', paintingBoard);
+//}
 function paintingBoard (event) {
         let color = document.querySelector('.selected');
         let colorBoard = getComputedStyle(color).backgroundColor;
@@ -51,13 +52,15 @@ vqvButton.addEventListener('click', sizeBoard);
 
 function sizeBoard () {
     const input = document.querySelector('#board-size')
-
+    
     if (input.value === '') {
         alert ('Board Inválido!')
     }
     pixelBoard.innerHTML = '';
     
     if (input.value >=1  && input.value <=50) {
-        createBoard(input.value);
+        createBoard(input.value);        
     }
+    //paintingBoard();
 }
+
