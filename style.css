@@ -1,4 +1,16 @@
-#gray {
+body {
+    background: url(download.jpeg);
+}
+
+
+h1 {
+    text-align: center;
+    
+}
+
+
+
+#cyan {
     width:70px;
     height:70px;
     border: 1px solid #000000;
@@ -31,8 +43,7 @@
 .color-names{
     display:inline-block;
     margin-top: 1px;
-    padding-top: 0px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .pixel {
@@ -41,3 +52,21 @@
     width: 40px;
     border: solid 1px #000000;
 }
+
+#color-palette{
+    text-align: center;
+}
+
+#color-names{
+    text-align: center;
+}
+
+#pixel-board{
+    padding-left: 430px;
+}
+
+input {
+    margin-left: 430px;
+    margin-bottom: 15px;
+}
+

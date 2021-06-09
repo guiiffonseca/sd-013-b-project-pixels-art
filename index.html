@@ -11,59 +11,25 @@
 
     <section id='color-palette'>
         <div class='color selected' id ='black' style="background-color:rgb(0,0,0);"></div>
-        <div class='color'id='gray' style="background-color:gray;"></div>
-        <div class='color'id ='pink' style="background-color:pink"></div>
+        <div class='color'id='cyan' style="background-color:cyan;"></div>
+        <div class='color'id ='pink' style="background-color:purple"></div>
         <div class='color'id='red' style="background-color:red"></div>
     </section>
 
-    <section><ul>
-        <li class='color-names'>Preto</li>
-        <li class='color-names'>Cinza</li>
-        <li class='color-names'>Pink</li>
+    <section><ul id ='color-names'>
+        <li class='color-names' id='preto'>Preto</li>
+        <li class='color-names'>Ciano</li>
+        <li class='color-names'>Violeta</li>
         <li class='color-names'>Vermelho</li>
     </ul></section>
-
+   
+    <input type="number" id ="board-size" min="1" max = "50">
+    <button id="generate-board">VQV</button>
     <button id="clear-board">Limpar</button>
    
-    <section>
-        <table id='pixel-board'>
-            <tr>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-            </tr>
-             <tr>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-            </tr>
-            <tr>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-            </tr>
-             <tr>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-            </tr>
-            <tr>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-                <td class="pixel"></td>
-            </tr>
-        </table>
-    </section>
+  <section id = 'table-section'>
+       <table id='pixel-board'></table>
+  </section>-
 
     <script src="script.js"></script>
 </body>
