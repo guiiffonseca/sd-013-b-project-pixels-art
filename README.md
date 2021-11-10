@@ -132,4 +132,4 @@ Neste projeto, você implementará um editor de arte com pixels.
   - Extensão Live Server
 
 ## Execução
-Para executar o projeto, basta que o repositório seja clonado e então seja aberto dentro do `Visual Studio Code`. Após isso, rodar com o com botão `Go Alive`.
+Para executar o projeto, basta que o repositório seja clonado e então seja aberto dentro do `Visual Studio Code`. Após isso, rodar com o botão `Go Alive`.
