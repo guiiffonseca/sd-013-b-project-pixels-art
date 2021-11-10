@@ -1,4 +1,5 @@
-## Projeto Pixels Art  - Trybe Bloco 05
+# Projeto Pixels Art  
+
 - JavaScript - DOM, Eventos e Web Storage 
 ---
 
