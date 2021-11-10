@@ -1,0 +1,76 @@
+body {
+    background: url(mario4.jpg);
+    
+    background-size: 100%;
+}
+
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    
+}
+
+
+
+#cyan {
+    width:70px;
+    height:70px;
+    border: 1px solid #000000;
+}
+
+#pink {
+    width:70px;
+    height:70px;
+    border: 1px solid #000000;
+}
+
+#red {
+    width:70px;
+    height:70px;
+    border: 1px solid #000000;
+}
+
+#black {
+    width:70px;
+    height:70px;
+    border: 1px solid #000000;
+}
+
+.color  {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.color-names{
+    display:inline-block;
+    margin-top: 1px;
+    padding-left: 30px;
+    color: whitesmoke;
+}
+
+.pixel {
+    background-color: rgb(255,255,255);
+    height: 40px;
+    width: 40px;
+    border: solid 1px #000000;
+}
+
+#color-palette{
+    text-align: center;
+}
+
+#color-names{
+    text-align: center;
+}
+
+#pixel-board{
+   padding-left: 400px;
+}
+
+input {
+    margin-left: 430px;
+    margin-bottom: 15px;
+}
+
